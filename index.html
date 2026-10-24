@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Marksheet</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6fa;
+      color: #1f2933;
+      margin: 0;
+      padding: 40px 16px;
+    }
+
+    .table-wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    caption {
+      caption-side: top;
+      font-size: 1.4rem;
+      font-weight: bold;
+      padding: 14px;
+      color: #1e3a5f;
+    }
+
+    th, td {
+      border: 1px solid #c5ccd6;
+      padding: 10px 12px;
+      text-align: center;
+    }
+
+    td.name {
+      text-align: left;
+    }
+
+    thead th {
+      background: #1e3a5f;
+      color: #ffffff;
+    }
+
+    thead tr:nth-child(2) th {
+      background: #2e5a8c;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #eef2f8;
+    }
+
+    tbody tr:hover {
+      background: #dde7f5;
+    }
+
+    tfoot th, tfoot td {
+      background: #e3e9f2;
+      font-weight: bold;
+    }
+
+    .grade-a { color: #1b7f3b; font-weight: bold; }
+    .grade-b { color: #1e5fa8; font-weight: bold; }
+    .grade-c { color: #b26a00; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Class 10-A Marksheet &ndash; Annual Examination 2026</caption>
+
+      <thead>
+        <tr>
+          <th rowspan="2">Roll No.</th>
+          <th rowspan="2">Student Name</th>
+          <th colspan="3">Marks Obtained (out of 100)</th>
+          <th rowspan="2">Total (out of 300)</th>
+          <th rowspan="2">Average</th>
+          <th rowspan="2">Grade</th>
+        </tr>
+        <tr>
+          <th>Mathematics</th>
+          <th>Science</th>
+          <th>English</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>101</td>
+          <td class="name">Aarav Sharma</td>
+          <td>88</td>
+          <td>92</td>
+          <td>79</td>
+          <td>259</td>
+          <td>86.33</td>
+          <td class="grade-a">A</td>
+        </tr>
+        <tr>
+          <td>102</td>
+          <td class="name">Priya Verma</td>
+          <td>76</td>
+          <td>81</td>
+          <td>90</td>
+          <td>247</td>
+          <td>82.33</td>
+          <td class="grade-b">B</td>
+        </tr>
+        <tr>
+          <td>103</td>
+          <td class="name">Rohan Gupta</td>
+          <td>65</td>
+          <td>70</td>
+          <td>68</td>
+          <td>203</td>
+          <td>67.67</td>
+          <td class="grade-c">C</td>
+        </tr>
+        <tr>
+          <td>104</td>
+          <td class="name">Sneha Singh</td>
+          <td>92</td>
+          <td>95</td>
+          <td>88</td>
+          <td>275</td>
+          <td>91.67</td>
+          <td class="grade-a">A</td>
+        </tr>
+        <tr>
+          <td>105</td>
+          <td class="name">Imran Khan</td>
+          <td>58</td>
+          <td>64</td>
+          <td>72</td>
+          <td>194</td>
+          <td>64.67</td>
+          <td class="grade-c">C</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th colspan="2">Class Total</th>
+          <td>379</td>
+          <td>402</td>
+          <td>397</td>
+          <td>1178</td>
+          <td rowspan="2" colspan="2">Grading: A &ge; 85, B = 70&ndash;84, C = 60&ndash;69</td>
+        </tr>
+        <tr>
+          <th colspan="2">Class Average</th>
+          <td>75.80</td>
+          <td>80.40</td>
+          <td>79.40</td>
+          <td>78.53</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+</body>
+</html>
+</body>
+</html>
